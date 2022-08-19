@@ -48,6 +48,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 60px;
 }
 
 .menu {
@@ -66,11 +67,15 @@ h1 {
     text-align: center;
     padding: 0%;
     font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
-    margin-left: 7.5rem ;
+    margin-left: 7.5rem;
 }
 
-/* fix this */ hr {
-    color: #818384;
+hr {
+    background-color: #3a3a3c;
+    margin: 0rem;
+    width: auto;
+    height: 0.5px;
+    border: 0 none;
 }
 
 .board {
