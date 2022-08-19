@@ -11,8 +11,8 @@ h1 {
 .piece {
     border: 2px solid #3a3a3c;
     margin: 0.15rem;
-    width: 60px;
-    height: 60px;
+    width: 58px;
+    height: 58px;
 }
 
 .row-1, 
@@ -27,7 +27,7 @@ h1 {
 }
 
 .letter {
-    height: 55px;
+    height: 60px;
     width: 45px;
     margin-bottom: 0.5rem;
     background-color: #818384;
@@ -35,24 +35,38 @@ h1 {
     color: white;
     font-weight: bold;
     border: 0; 
+
+}
+
+.letter[data-letter = 'enter'],
+.letter[data-letter = 'delete'] {
+    width: 65px;
 }
 
 .header {
-    display: flex;
-    justify-content: center;
     text-align: center;
+    padding: 0%;
+    font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 hr {
-    margin-bottom: 7rem;
+    color: #818384;
 }
 
 .board {
-    margin-bottom: 7rem;
+    margin: 6.2rem;
 }
 
-.bottom {
+.module {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
+
+.row-b {
+    display: flex;
+    justify-content: center;
+    gap: 4.5px;
+}
+
