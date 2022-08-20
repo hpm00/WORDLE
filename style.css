@@ -21,6 +21,13 @@ h1 {
     padding: 0%;
 }
 
+input:focus {
+    border-color: #3a3a3c;
+    outline: 0 none;
+    box-shadow:0 0 10px #3a3a3c;
+    caret-color: transparent;
+}
+
 .row-1, 
 .row-2,
 .row-3,
