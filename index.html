@@ -29,89 +29,46 @@
            </div>
         </div>
         <hr></hr>
-        <div class = "bottom">
-           <div class = "module">
-              <div class = "board">
-                 <div class = "row">
-                   <input class = "piece" maxlength = "1" style="text-transform: uppercase" autofocus/>
-                   <input class = "piece" maxlength = "1" style="text-transform: uppercase"/>
-                   <input class = "piece" maxlength = "1" style="text-transform: uppercase"/>
-                   <input class = "piece" maxlength = "1" style="text-transform: uppercase"/>
-                   <input class = "piece" maxlength = "1" style="text-transform: uppercase"/>
-                 </div>
-                 <div class = "row">
-                   <input class = "piece" maxlength = "1" style="text-transform: uppercase"/>
-                   <input class = "piece" maxlength = "1" style="text-transform: uppercase"/>
-                   <input class = "piece" maxlength = "1" style="text-transform: uppercase"/>
-                   <input class = "piece" maxlength = "1" style="text-transform: uppercase"/>
-                   <input class = "piece" maxlength = "1" style="text-transform: uppercase"/>
-                 </div>
-                 <div class = "row">
-                   <input class = "piece" maxlength = "1" style="text-transform: uppercase"/>
-                   <input class = "piece" maxlength = "1" style="text-transform: uppercase"/>
-                   <input class = "piece" maxlength = "1" style="text-transform: uppercase"/>
-                   <input class = "piece" maxlength = "1" style="text-transform: uppercase"/>
-                   <input class = "piece" maxlength = "1" style="text-transform: uppercase"/>
-                 </div>
-                 <div class = "row">
-                   <input class = "piece" maxlength = "1" style="text-transform: uppercase"/>
-                   <input class = "piece" maxlength = "1" style="text-transform: uppercase"/>
-                   <input class = "piece" maxlength = "1" style="text-transform: uppercase"/>
-                   <input class = "piece" maxlength = "1" style="text-transform: uppercase"/>
-                   <input class = "piece" maxlength = "1" style="text-transform: uppercase"/>
-                 </div>
-                 <div class = "row">
-                   <input class = "piece" maxlength = "1" style="text-transform: uppercase"/>
-                   <input class = "piece" maxlength = "1" style="text-transform: uppercase"/>
-                   <input class = "piece" maxlength = "1" style="text-transform: uppercase"/>
-                   <input class = "piece" maxlength = "1" style="text-transform: uppercase"/>
-                   <input class = "piece" maxlength = "1" style="text-transform: uppercase"/>
-                 </div>
-                 <div class = "row">
-                   <input class = "piece" maxlength = "1" style="text-transform: uppercase"/>
-                   <input class = "piece" maxlength = "1" style="text-transform: uppercase"/>
-                   <input class = "piece" maxlength = "1" style="text-transform: uppercase"/>
-                   <input class = "piece" maxlength = "1" style="text-transform: uppercase"/>
-                   <input class = "piece" maxlength = "1" style="text-transform: uppercase"/>
-                 </div>
+        <div id="container">
+            <div id= "board-container">
+               <div id = "board"></div>
+            </div>
+            <div class = "keyboard-container">
+               <div class = "keyboard-row">
+                     <button data-key= 'q' class = "letter">Q</button>
+                     <button data-key= 'w' class = "letter">W</button>
+                     <button data-key= 'e' class = "letter">E</button>
+                     <button data-key= 'r' class = "letter">R</button>
+                     <button data-key= 't' class = "letter">T</button>
+                     <button data-key= 'y' class = "letter">Y</button>
+                     <button data-key= 'u' class = "letter">U</button>
+                     <button data-key= 'i' class = "letter">I</button>
+                     <button data-key= 'o' class = "letter">O</button>
+                     <button data-key= 'p' class = "letter">P</button>
                </div>
-              <div class = "keyboard">
-            <div class = "row-a">
-                <button data-letter= 'q' class = "letter">Q</button>
-                <button data-letter= 'w' class = "letter">W</button>
-                <button data-letter= 'e' class = "letter">E</button>
-                <button data-letter= 'r' class = "letter">R</button>
-                <button data-letter= 't' class = "letter">T</button>
-                <button data-letter= 'y' class = "letter">Y</button>
-                <button data-letter= 'u' class = "letter">U</button>
-                <button data-letter= 'i' class = "letter">I</button>
-                <button data-letter= 'o' class = "letter">O</button>
-                <button data-letter= 'p' class = "letter">P</button>
+               <div class = "keyboard-row">
+                     <button data-key= 'a' class = "letter">A</button>
+                     <button data-key= 's' class = "letter">S</button>
+                     <button data-key= 'd' class = "letter">D</button>
+                     <button data-key= 'f' class = "letter">F</button>
+                     <button data-key= 'g' class = "letter">G</button>
+                     <button data-key= 'h' class = "letter">H</button>
+                     <button data-key= 'j' class = "letter">J</button>
+                     <button data-key= 'k' class = "letter">K</button>
+                     <button data-key= 'l' class = "letter">L</button>
+               </div>
+               <div class = "keyboard-row">
+                     <button data-key= 'enter' class = "letter">ENTER</button>
+                     <button data-key= 'z' class = "letter">Z</button>
+                     <button data-key= 'x' class = "letter">X</button>
+                     <button data-key= 'c' class = "letter">C</button>
+                     <button data-key= 'v' class = "letter">V</button>
+                     <button data-key= 'b' class = "letter">B</button>
+                     <button data-key= 'n' class = "letter">N</button>
+                     <button data-key= 'm' class = "letter">M</button>
+                     <button data-key= 'delete' class = "letter">DELETE</button>
+               </div>
             </div>
-            <div class = "row-b">
-                <button data-letter= 'a' class = "letter">A</button>
-                <button data-letter= 's' class = "letter">S</button>
-                <button data-letter= 'd' class = "letter">D</button>
-                <button data-letter= 'f' class = "letter">F</button>
-                <button data-letter= 'g' class = "letter">G</button>
-                <button data-letter= 'h' class = "letter">H</button>
-                <button data-letter= 'j' class = "letter">J</button>
-                <button data-letter= 'k' class = "letter">K</button>
-                <button data-letter= 'l' class = "letter">L</button>
-            </div>
-            <div class = "row-c">
-                <button data-letter= 'enter' class = "letter">ENTER</button>
-                <button data-letter= 'z' class = "letter">Z</button>
-                <button data-letter= 'x' class = "letter">X</button>
-                <button data-letter= 'c' class = "letter">C</button>
-                <button data-letter= 'v' class = "letter">V</button>
-                <button data-letter= 'b' class = "letter">B</button>
-                <button data-letter= 'n' class = "letter">N</button>
-                <button data-letter= 'm' class = "letter">M</button>
-                <button data-letter= 'delete' class = "letter">DELETE</button>
-            </div>
-              </div>
-           </div>
         </div>
         <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </body>
